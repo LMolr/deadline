@@ -41,4 +41,10 @@ describe Deadline::Deadline do
     expect(deadline.expired?).to be true
   end
 
+  it 'handles infinite timeout' do
+    deadline = Deadline::Deadline.new(Float::INFINITY)
+    deadline.start
+    expect(deadline.time_left).to eq(Float::INFINITY)
+  end
+
 end
