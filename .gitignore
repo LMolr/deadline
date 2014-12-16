@@ -1,4 +1,5 @@
 # Generated documentation
+.yardoc/
 doc/
 
 # Log and temporary files

@@ -14,6 +14,7 @@ GEM
     columnize (0.9.0)
     debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
+    kramdown (1.5.0)
     method_source (0.8.2)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -44,6 +45,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.7)
   deadline!
+  kramdown (~> 1.5)
   pry (~> 0.10)
   pry-byebug (~> 2.0)
   rake (~> 10.3)
